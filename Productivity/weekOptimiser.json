@@ -1,0 +1,98 @@
+{
+    "config": {
+        "weekCommence": "2025-07-27",
+        "weekEnd": "2025-08-02",
+        "weekLength": 5,
+        "weekDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "weekHours": 8,
+        "workHours": [
+            {"Monday": {
+                "start": "08:30",
+                "end": "15:00"
+            }},
+            {"Tuesday": {
+                "start": "08:30",
+                "end": "15:00"
+            }},
+            {"Wednesday": {
+                "start": "08:30",
+                "end": "15:00"
+            }},
+            {"Thursday": {
+                "start": "08:30",
+                "end": "15:00"
+            }},
+            {"Friday": {
+                "start": "08:30",
+                "end": "15:00"
+            }}
+        ],
+        "lunchDuration": 60
+    },
+
+    "appointments": [
+        {
+            "name": "Basketball Training",
+            "start": "2025-07-28 16:00",
+            "end": "2025-07-28 17:00",
+            "duration": 60,
+            "priority": 1,
+            "type": "family",
+            "location": "Heights College"
+        },
+        {
+            "name": "Office Hours with Christopher Foley",
+            "start": "2025-07-29 11:00",
+            "end": "2025-07-29 11:45",
+            "duration": 45,
+            "priority": 3,
+            "type": "work",
+            "location": "Google Meet"
+        },
+        {
+            "name": "Piano Lessons",
+            "start": "2025-07-29 15:30",
+            "end": "2025-07-29 17:00",
+            "duration": 90,
+            "priority": 1,
+            "type": "family",
+            "location": "Frenchville"
+        },
+        {
+            "name": "Oasis Church College",
+            "start": "2025-07-29 18:30",
+            "end": "2025-07-29 20:30",
+            "duration": 120,
+            "priority": 1,
+            "type": "Church",
+            "location": "Oasis Church Office"
+        },
+        {
+            "name": "CSIRO Innovate to Grow - Health Care Seminar",
+            "start": "2025-07-29 12:00",
+            "end": "2025-07-29 12:30",
+            "duration": 30,
+            "priority": 2,
+            "type": "work",
+            "location": "Google Meet"
+        },
+        {
+            "name": "Psychology Appointment with Dr Harner",
+            "start": "2025-07-31 11:00",
+            "end": "2025-07-31 12:00",
+            "duration": 60,
+            "priority": 1,
+            "type": "personal",
+            "location": "Zoom"
+        },
+        {
+            "name": "Basketball: Eagles v Frenchville Cougars",
+            "start": "2025-08-01 17:50",
+            "end": "2025-08-01 18:50",
+            "duration": 60,
+            "priority": 1,
+            "type": "family",
+            "location": "Bravus Arena"
+        }
+    ]
+}
