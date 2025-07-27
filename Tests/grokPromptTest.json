@@ -1,0 +1,19 @@
+{
+    "instruction": {
+        "detail": "Assess two options for llm prompting, and advise best approach.",
+        "format": "Natural language Text",
+        "maxLength": 300
+    },
+
+    "options": [
+        {
+            "name": "JSON Schema",
+            "description": "Prompt is provided in JSON format."
+        },
+        {
+            "name": "Natural Language",
+            "description": "Prompt is provided in natural language."
+        }
+        
+    ]
+}
