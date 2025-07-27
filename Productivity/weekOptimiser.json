@@ -27,7 +27,11 @@
                 "end": "15:00"
             }}
         ],
-        "lunchDuration": 60
+        "lunchDuration": 60,
+        "pomodoro": {
+            "work": 75,
+            "break": 15
+        }
     },
 
     "appointments": [
@@ -93,6 +97,14 @@
             "priority": 1,
             "type": "family",
             "location": "Bravus Arena"
+        }
+    ],
+    "projects": [
+        {
+            "name": "NDIS Launch",
+            "client": "Oasis Community Services",
+            "priority": 1,
+            "hours": 12
         }
     ]
 }
