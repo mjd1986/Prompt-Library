@@ -1,4 +1,12 @@
 {
+    "instructions": {
+        "title": "Week Optimiser",
+        "detail": "Utilise the following information to create an optimised high performance week for the user.",
+        "output": "Report with daily schedule and tasks",
+        "outputFormat": "Rich Text",
+        "outputLanguage": "en-AU",
+        "style": "Professional"
+    },
     "config": {
         "weekCommence": "2025-07-27",
         "weekEnd": "2025-08-02",
@@ -8,57 +16,56 @@
         "workHours": [
             {"Monday": {
                 "start": "08:30",
-                "end": "15:00"
+                "end": "15:00",
+                "afterHoursStart": "20:00",
+                "afterHoursEnd": "22:00"
             }},
             {"Tuesday": {
                 "start": "08:30",
-                "end": "15:00"
+                "end": "15:00",
+                "afterHoursStart": null,
+                "afterHoursEnd": null
             }},
             {"Wednesday": {
                 "start": "08:30",
-                "end": "15:00"
+                "end": "15:00",
+                "afterHoursStart": "20:00",
+                "afterHoursEnd": "22:00"
             }},
             {"Thursday": {
                 "start": "08:30",
-                "end": "15:00"
+                "end": "15:00",
+                "afterHoursStart": "20:00",
+                "afterHoursEnd": "22:00"
             }},
             {"Friday": {
                 "start": "08:30",
-                "end": "15:00"
+                "end": "15:00",
+                "afterHoursStart": null,
+                "afterHoursEnd": null
             }}
         ],
         "lunchDuration": 60,
         "pomodoro": {
             "work": 75,
             "break": 15
+        },
+        "priority": {
+            "A": "Urgent",
+            "B": "Important",
+            "C": "Not Important",
+            "D": "Delegate Item",
+            "E": "Eliminate Item"
         }
     },
 
     "appointments": [
         {
-            "name": "Basketball Training",
-            "start": "2025-07-28 16:00",
-            "end": "2025-07-28 17:00",
-            "duration": 60,
-            "priority": 1,
-            "type": "family",
-            "location": "Heights College"
-        },
-        {
-            "name": "Office Hours with Christopher Foley",
-            "start": "2025-07-29 11:00",
-            "end": "2025-07-29 11:45",
-            "duration": 45,
-            "priority": 3,
-            "type": "work",
-            "location": "Google Meet"
-        },
-        {
             "name": "Piano Lessons",
             "start": "2025-07-29 15:30",
             "end": "2025-07-29 17:00",
             "duration": 90,
-            "priority": 1,
+            "priority": "A",
             "type": "family",
             "location": "Frenchville"
         },
@@ -67,7 +74,7 @@
             "start": "2025-07-29 18:30",
             "end": "2025-07-29 20:30",
             "duration": 120,
-            "priority": 1,
+            "priority": "A",
             "type": "Church",
             "location": "Oasis Church Office"
         },
@@ -76,7 +83,7 @@
             "start": "2025-07-29 12:00",
             "end": "2025-07-29 12:30",
             "duration": 30,
-            "priority": 2,
+            "priority": "B",
             "type": "work",
             "location": "Google Meet"
         },
@@ -85,7 +92,7 @@
             "start": "2025-07-31 11:00",
             "end": "2025-07-31 12:00",
             "duration": 60,
-            "priority": 1,
+            "priority": "A",
             "type": "personal",
             "location": "Zoom"
         },
@@ -94,7 +101,7 @@
             "start": "2025-08-01 17:50",
             "end": "2025-08-01 18:50",
             "duration": 60,
-            "priority": 1,
+            "priority": "A",
             "type": "family",
             "location": "Bravus Arena"
         }
@@ -103,8 +110,71 @@
         {
             "name": "NDIS Launch",
             "client": "Oasis Community Services",
-            "priority": 1,
-            "hours": 12
+            "priority": "A",
+            "hours": 12,
+            "tasks": [
+                {
+                    "name": "Website Update",
+                    "hours": 6,
+                    "priority": "A"
+                },
+                {
+                    "name": "Social Media Ads",
+                    "hours": 3,
+                    "priority": "A"
+                },
+                {
+                    "name": "Group and Centre Program Update",
+                    "hours": 3,
+                    "priority": "A"
+                },
+                {
+                    "name": "Follow Up Victoria Martin",
+                    "hours": 0.5,
+                    "priority": "B"
+                }
+            ]
+        },
+        {
+            "name": "OC Care Services Incorporation",
+            "client": "Oasis Community Services",
+            "priority": "A",
+            "hours": 2,
+            "tasks": [
+                {
+                    "name": "Information Gathering",
+                    "hours": 1,
+                    "priority": "A"
+                },
+                {
+                    "name": "Document Execution",
+                    "hours": 1.5,
+                    "priority": "A"
+                },
+                {
+                    "name": "Incorporation with ASIC",
+                    "hours": 0.5,
+                    "priority": "A"
+                }
+            ]
+        },
+        {
+            "name": "Executive Outsource",
+            "client": "Gracemere Ventures",
+            "priority": "A",
+            "hours": 1,
+            "tasks": [
+                {
+                    "name": "Sales Funnel",
+                    "hours": 6,
+                    "priority": "A"
+                },
+                {
+                    "name": "Briefing to Encar",
+                    "hours": 0.25,
+                    "priority": "A"
+                }
+            ]
         }
     ]
 }
