@@ -1,0 +1,65 @@
+{
+    "instructions": {
+        "detail": "Provide an estimated sales value for One Stop Pet Shop, a Shopify store website, and a strategy for selling the business",
+        "outputFormat": "Appraisal and Strategy Report",
+        "outputParameters": {
+            "tone": "professional, informative, and concise",
+            "format": "markdown",
+            "language": "en-AU",
+            "structure": {
+                "title": "1st Stop Pet Shop Appraisal and Strategy Report",
+                "sections": [
+                    "Introduction",
+                    "Business Overview",
+                    "Market Analysis",
+                    "Sales Value Estimation",
+                    "Selling Strategy",
+                    "Conclusion"
+                ]
+            }
+        }
+    },
+    "context": {
+        "businessOverview": {
+            "name": "1st Stop Pet Shop",
+            "website": "https://1ststoppetshop.com",
+            "description": "1st Stop Pet Shop is an online pet store that sells a wide range of pet products and services.",
+            "location": "Rockhampton, Australia",
+            "industry": "Pet Supplies",
+            "operations": "dropshipping",
+            "supplier": "dropshopzone",
+            "products": "Pet Supplies",
+            "customers": "Pet Lovers",
+            "competitors": "Pet Supplies Stores",
+            "market": "Australia",
+            "marketTrends": "Pet Supplies",
+            "revenue": 0,
+            "profit": 0,
+            "assets": 0,
+            "liabilities": 0,
+            "equity": 0,
+            "cashFlow": 0,
+            "websiteStatus": "active",
+            "websiteTraffic": 0,
+            "websiteRevenue": 0,
+            "websiteProfit": 0,
+            "websiteAssets": 0,
+            "websiteLiabilities": 0,
+            "websiteValueatCost": 2000,
+            "websiteAccumAmortisation": 0,
+            "targetSalePrice": 4000,
+            "targetSaleDate": "2025-11-01",
+            "targetSaleMethod": "online",
+            "targetSalePlatform": [{
+                "option 1": "shopify",
+                "option 2": "acquire.com",
+                "option 3": "facebook marketplace",
+                "option 4": "flippa.com"
+            }
+            ],
+            "saleMarketingBudget": 0,
+            "saleAdvisorFeePercentage": 10,
+            "saleAdvisorFeeFixed": 0
+        }
+    }
+}
