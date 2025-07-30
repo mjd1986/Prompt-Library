@@ -1,0 +1,32 @@
+{
+"loan": {
+    "name": "TQCG Loan",
+    "lender": "TQCG",
+    "borrower": "THPL",
+    "type": "Private Business Loan",
+    "purpose": "Working Capital",
+    "status": "Active",
+    "amount": 20000,
+    "interestRate": 0.045,
+    "interestPeriod": "Monthly",
+    "term": 0.25,
+    "startDate": "2025-06-30",
+    "endDate": "2025-09-28",
+    "paymentType": "Interest Only",
+    "paymentFrequency": "Monthly",
+    "payments": [
+        {
+            "date": "2025-07-28",
+            "amount": 900
+        },
+        {
+            "date": "2025-08-28",
+            "amount": 900
+        },
+        {
+            "date": "2025-09-28",
+            "amount": 20900
+        }
+    ]
+}
+}
