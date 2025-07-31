@@ -1,0 +1,13 @@
+{
+    "task": "Summarise digital pulse document",
+    "instructions": "Summarise the attached ACS Digital Pulse Document",
+    "output": "blog article",
+    "language": "en-AU",
+    "format": "text",
+    "style": "informal",
+    "tone": "informative",
+    "length": "1000 words",
+    "audience": "tech startup founder",
+    "purpose": "educational",
+    "keywords": ["digital pulse", "acs", "blog", "article"]
+}
