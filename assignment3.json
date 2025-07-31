@@ -1,0 +1,29 @@
+{
+    "attachments": [
+        {
+        "file": "EDU5003 Assignment 3 Task Sheet Part A and B Podcast.pdf",
+        "name": "Task Sheet"
+        },
+        {
+        "file": "Self Reflection.docx",
+        "name": "Self Relfection"
+        }
+    ],
+    
+    "task": {
+        "detail": "assess and provide feedback",
+        "submission": "self reflection",
+        "assessment": "task sheet",
+        "assessmentPartA": false
+        "assessmentPartB": true,
+        "format": "assessment draft review",
+        "language": "en-AU",
+        "sections": {
+            "intro",
+            "strengths",
+            "opportunities for improvement",
+            "estimated grade",
+            "summary"
+            }
+    }
+}
