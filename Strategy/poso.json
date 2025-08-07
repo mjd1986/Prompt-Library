@@ -1,0 +1,21 @@
+{
+    "target": "https://www.projectsonesafety.online",
+    "tasks": [
+        {
+            "name": "NDIS Viability",
+            "detail": "Review for suitability for NDIS"   
+        },
+        {
+            "name": "Feature analysis",
+            "detail": "Review features and advise missing for NDIS"
+        },
+        {
+            "name": "Reseller Strategy",
+            "detail": "Advise a strategy for reselling to NDIS and suggest pitch to developer"
+        }
+    ],
+    "language": "en-AU",
+    "tone": "professional",
+    "style": "technical",
+    "length": "1000 words max"
+}
