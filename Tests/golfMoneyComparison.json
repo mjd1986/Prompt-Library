@@ -1,0 +1,22 @@
+{
+    "tasks": [
+        {
+            "task": "Compare golf tour metrics",
+            "format": "table",
+            "tours": ["PGA Tour", "LPGA Tour", "DP World Tour"],
+            "metrics": ["Average Purse", "Percentage Share of Tour Revenue", "Average Major Championship purse", "Average endorsement values"]
+        },
+        {
+            "task": "Explain discrepancies between tours",
+            "format": "Concise text explainer",
+            "explore": [
+                "Tour revenue differences",
+                "Reasons for sponsorship differences",
+                "Reasons for endorsement differences",
+                "Discrepencies in reveue share",
+                "Any other relevant factors"
+            ]
+        }
+    ],
+    "language": "en-AU"
+}
