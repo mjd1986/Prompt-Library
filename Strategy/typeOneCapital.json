@@ -1,0 +1,28 @@
+{
+    "user_prompt": "Analyse the legal feasibility of the following deal structure",
+    
+    "existing_capital_structure": {
+              "majority": "90%",
+              "minority": "10%"
+    },
+    "new_capital_structure": {
+        "majority": "80%",
+        "existing_minority": "10%",
+        "new_minority": "10%"
+    },
+    "deal_steps": [
+        {
+            "step": "1",
+            "description": "Existing majority shareholder sells 10% back to company for nominal price"
+        },
+        {
+            "step": "2",
+            "description": "Company cancels bought back shares"
+        },
+        {
+            "step": "3",
+            "description": "Company issues new shares to new minority shareholder"
+        }
+    ],
+    "target_outcome": "New minority shareholder owns 10% of the company, wihtout diluting existing minority shareholder"
+}
