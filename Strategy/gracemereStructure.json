@@ -1,0 +1,76 @@
+{
+    "gracemereGroup": {
+        "parent": {
+            "name": "Doyle Trust",
+            "type": "Discretionary Trust",
+            "trustee": "Tutt Holland Pty Ltd",
+            "subsidiaries": [
+                {
+                    "name": "Gracemere Ventures Pty Ltd",
+                    "type": "Holding Company",
+                    "subsidiaryOf": "Doyle Trust",
+                    "purpose": "Venture Capital",
+                    "subsidiaries": [
+                        {
+                            "name": "Gracemere Strategy Pty Ltd",
+                            "type": "Operating Company",
+                            "subsidiaryOf": "Gracemere Ventures Pty Ltd",
+                            "purpose": "Consulting and IP Management"
+                        },
+                        {
+                            "name": "Gracemere Talent Outsourcing Pty Ltd",
+                            "type": "Operating Company",
+                            "subsidiaryOf": "Gracemere Ventures Pty Ltd",
+                            "purpose": "Talent Outsourcing Sales and CX",
+                            "country": "Australia",
+                            "subsidiaries": [
+                                {
+                                    "name": "Gracemere Talent Outsourcing Corp",
+                                    "type": "Operating Company",
+                                    "subsidiaryOf": "Gracemere Talent Outsourcing Pty Ltd",
+                                    "purpose": "Talent Outsourcing Employer of Record",
+                                    "country": "Philippines"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Gracemere Management Pty Ltd",
+                            "type": "Operating Company",
+                            "subsidiaryOf": "Gracemere Ventures Pty Ltd",
+                            "purpose": "Management, Employment, Payroll, and Administration services for Gracemere Group entities"
+                        },
+                        {
+                            "name": "Type One Technologies Pty Ltd",
+                            "type": "Holding Company",
+                            "subsidiaryOf": "Gracemere Ventures Pty Ltd",
+                            "purpose": "Holding Company for Digital Health Startup IP and Operating Subsidiaries",
+                            "subsidiaries": [
+                                {
+                                    "name": "My Diabetes Suite Pty Ltd",
+                                    "type": "Operating Company",
+                                    "subsidiaryOf": "Type One Technologies Pty Ltd",
+                                    "purpose": "Operating Company for Digital Health Startup",
+                                    "country": "Australia"
+                                },
+                                {
+                                    "name": "My Diabetes Suite Limited",
+                                    "type": "Operating Company",
+                                    "subsidiaryOf": "Type One Technologies Pty Ltd",
+                                    "purpose": "EU Operating Company for Digital Health Startup",
+                                    "country": "Ireland"
+                                },
+                                {
+                                    "name": "My Diabetes Suite Inc",
+                                    "type": "Operating Company",
+                                    "subsidiaryOf": "Type One Technologies Pty Ltd",
+                                    "purpose": "US Operating Company for Digital Health Startup",
+                                    "country": "United States"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
