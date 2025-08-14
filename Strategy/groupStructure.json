@@ -1,0 +1,79 @@
+{
+    "task": "group structure analysis",
+    "instructions": "Analyse the group structure outlined and provide a report on the group structure.",
+    "output": "report",
+    "outputLanguage": "en-AU",
+    "outputStyle": "professional",
+    "outputTone": "informative",
+    "outputLength": "1000 words",
+    "outputAudience": "group director",
+    "outputPurpose": "educational",
+    "outputKeywords": ["group structure", "analysis", "report"],
+    "groupStructure": {
+        "trusteeName": "trustCo",
+        "trustName": "trust",
+        "trustType": "discretionary family trust",
+        "companies": [
+            {
+                "name": "holdCo",
+                "type": "private company",
+                "role": "holding company",
+                "status": "active",
+                "country": "Australia",
+                "subsidiaries": [
+                    {
+                        "name": "managementCo",
+                        "type": "private company",
+                        "role": "Group Management, Administration, and Employment",
+                        "status": "active",
+                        "country": "Australia"
+                    },
+                    {
+                        "name": "investCo",
+                        "type": "private company",
+                        "role": "investment company",
+                        "status": "active",
+                        "country": "Australia"
+                    },
+                    {
+                        "name": "consultingCo",
+                        "type": "private company",
+                        "role": "Consulting and Advisory",
+                        "status": "active",
+                        "country": "Australia"
+                    },
+                    {
+                        "name": "outsourceCo",
+                        "type": "private company",
+                        "role": "Outsourcing sales, customer service, and marketing",
+                        "status": "active",
+                        "country": "Australia",
+                        "subsidiary": {
+                            "name": "outsourceCoPH",
+                            "type": "private company",
+                            "role": "Outsourcing Employer of Record",
+                            "status": "active",
+                            "country": "Philippines"
+                        }
+                    },
+                    {
+                        "name": "startupHoldCo",
+                        "type": "private company",
+                        "role": "Holding company for startup, including IP ownership",
+                        "status": "active",
+                        "country": "Australia",
+                        "ownership": "90%",
+                        "subsidiary": {
+                            "name": "startupCo",
+                            "type": "private company",
+                            "role": "digital health startup",
+                            "status": "active",
+                            "country": "Australia"
+                        }
+                    }
+                ]
+
+            }
+        ]
+    }
+}
